@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar app clipped-left dark color="purple">
+  <v-app-bar app clipped-left dark color="pink">
     <v-app-bar-nav-icon
       v-if="user"
       @click="drawer ? hideDrawer() : showDrawer()"
